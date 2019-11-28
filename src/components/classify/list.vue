@@ -9,7 +9,6 @@
           :key="item._id"
         >{{item.title}}</li>
       </ul>
-      <!-- <router-link to="/details">跳转</router-link> -->
     </div>
     <div class="right">
       <ul>
@@ -46,7 +45,7 @@ export default {
   },
   created() {
     this.$http.get("/api/catelist").then(res => {
-      console.log(res);
+      console.log(res.data.data);
       this.shopList = res.data.data;
     });
     this.$http.get("/api/categoods").then(res => {

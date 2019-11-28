@@ -3,7 +3,6 @@
     <div class="username">
         <h1>{{uname}}</h1>
     </div>
-    <!-- <img class="user-poster" src="https://img.yzcdn.cn/public_files/2017/10/23/8690bb321356070e0b8c4404d087f8fd.png"> -->
     <van-row class="user-links">
       <van-col span="6">
         <van-icon name="pending-payment" />待付款

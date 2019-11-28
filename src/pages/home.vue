@@ -12,7 +12,7 @@
 export default {
     data(){
         return{
-            images:[]
+          images:[]
         }
     },
     created(){
@@ -24,5 +24,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+.van-swipe {
+  width: 100%;
+  height: 300px;
+}
 </style>
